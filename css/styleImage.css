@@ -1,0 +1,61 @@
+body {
+  height: auto;
+}
+
+.image-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-container p {
+  color: #000000;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+form {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+button#homeBtn{
+  background: transparent; /*투명하게*/
+  color: red;
+  border: none;
+  font-size: 2rem;
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  cursor: pointer;
+}
+
+
+button#moreViewBtn {
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  transform: translateX(-50%); /* 좌우 중앙 정렬 */
+  cursor: pointer;
+  font-family: 'Nanum Gothic', serif;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 1rem;
+  border-color: #000000;
+  background: transparent;
+  padding: 1rem 1rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  opacity: .7;
+}
